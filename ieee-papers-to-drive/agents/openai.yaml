@@ -1,0 +1,6 @@
+interface:
+  display_name: "IEEE 论文批量下载到 Drive"
+  short_description: "按标题或 DOI 在 Ego 中认证并批量下载 IEEE 论文，核验打包后上传 Drive"
+  default_prompt: "使用 $ieee-papers-to-drive，按我提供的论文标题或 DOI，在 Ego 中通过学校认证批量下载，核验并打包；如需上传，将压缩包放入我指定的 Drive 文件夹。"
+policy:
+  allow_implicit_invocation: true
